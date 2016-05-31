@@ -386,9 +386,9 @@ input.search-form:hover {
 
 #main-slider .carousel .btn-slide {
   padding: 8px 20px;
-  background: #c52d2f;
+  background: rgb(48, 48, 48);
   color: #fff;
-  border-radius: 4px;
+  border-radius: 34px;
   margin-top: 25px;
   display: inline-block;
 }
@@ -533,7 +533,7 @@ input.search-form:hover {
 }
 
 #feature {
-  background: #f2f2f2;
+  background: #f8f8f8;
   padding-bottom: 40px;
 }
 
@@ -651,7 +651,7 @@ input.search-form:hover {
 }
 
 #services {
-  background: #000 url(../images/services/bg_services.png);
+  background: #000 url(http://demo.qodeinteractive.com/bridge3/wp-content/uploads/2014/04/parallax_01.jpg);
   background-size: cover;
 }
 
@@ -948,8 +948,9 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;
+/*  background: url(../images/partners/partner_bg.png) 50% 50% no-repeat;*/
   background-size: cover;
+  background-color: #eee;
 }
 
 #partner {
@@ -975,7 +976,6 @@ a.accordion-toggle  i{
 }
 
 #conatcat-info{
-  background: #fff url(../images/contact.png) no-repeat 90% 0;
   padding: 30px 0;
 }
 
@@ -2457,12 +2457,11 @@ shortcodes page css
 }
 
 
-
 /***********************
 ********* Footer ******
 ************************/
 #bottom {
-  background: #f5f5f5;
+  background: #262626;
   border-bottom: 5px solid #c52d2f;
   font-size: 14px;
 }
@@ -2472,7 +2471,7 @@ shortcodes page css
   margin-bottom: 10px;
   text-transform: uppercase;
   font-size:22px;
-  color: #000;
+  color: #fff;
 }
 
 #bottom ul {
@@ -2502,7 +2501,7 @@ shortcodes page css
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  background: #2e2e2e;
+  background: #1b1b1b;
 }
 
 #footer a {
@@ -2524,8 +2523,14 @@ shortcodes page css
   margin-left: 15px;
 }
 
-
-
+.second-btn-slide {
+    padding: 8px 20px;
+    background: rgb(48, 48, 48);
+    color: #fff;
+    border-radius: 34px;
+    margin-top: 9px;
+    display: inline-block;
+}
 
 
 
