@@ -26,6 +26,9 @@ h6 {
 h1{
   font-size: 36px;
   color:#fff;
+/*  font-family: 'Quicksand', sans-serif;*/
+}
+
 }
 
 h2{
@@ -534,7 +537,11 @@ input.search-form:hover {
 }
 
 #feature {
-  background: #f8f8f8;
+  background: (#E6E6E6, #FAFAFA);
+  background: -webkit-linear-gradient(#E6E6E6, #FAFAFA); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#E6E6E6, #FAFAFA); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#E6E6E6, #FAFAFA); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#E6E6E6, #FAFAFA); /* Standard syntax */
   padding-bottom: 40px;
 }
 
@@ -2574,6 +2581,26 @@ hr {
 }
 
 .item {
-      background: #f8f8f8;
-      padding-top: 100px;
+  background: (#FAFAFA, #E6E6E6);
+  background: -webkit-linear-gradient(#FAFAFA, #E6E6E6); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#FAFAFA, #E6E6E6); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#FAFAFA, #E6E6E6); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#FAFAFA, #E6E6E6); /* Standard syntax */
+  padding-top: 100px;
+}
+
+.testimonial {
+  width: 250px;
+}
+
+#uber {
+  margin-top: 17px;
+}
+
+#instacart {
+  margin-top: 18px;
+}
+
+#testimonial {
+  background: white;
 }
